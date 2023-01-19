@@ -9,6 +9,7 @@ class Program
         Console.WriteLine("Please enter your name");
         username = Console.ReadLine();
         Console.WriteLine($"Goodbye, {username}!");
+        Console.WriteLine("How are you?");
         Console.ReadKey(true);
     }
 }
